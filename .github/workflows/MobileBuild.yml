@@ -3,9 +3,9 @@ name: MobileBuild
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ main ]
+    branches: [ main, owner ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, owner ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
